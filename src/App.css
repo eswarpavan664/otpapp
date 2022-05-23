@@ -1,0 +1,33 @@
+.header_{
+  background-color: rgba(255, 160, 122, 0.6);
+  padding: 5px;
+  border-bottom: 2px solid brown;
+}
+.heading_{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: whitesmoke;
+}
+.form_div{
+  height: 91.1vh;
+  background-image:linear-gradient(rgba(255, 255, 255, 0.8),rgba(255, 166, 0, 0.8)),url('https://images.template.net/wp-content/uploads/2016/12/14085957/MS-PowerPoint-Flame-Background.jpg');
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.form_div form{
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+.form_div form input{
+  padding: 15px;
+  border-radius: 8px;
+  border: none;
+  width: 350px;
+  border-left: 5px solid brown;
+}

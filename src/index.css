@@ -1,0 +1,14 @@
+ 
+ 
+#bank_header{
+  border-bottom: 2px solid gray;
+  display: flex;
+  justify-content: space-between;
+}
+.parent_form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
